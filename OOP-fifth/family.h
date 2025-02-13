@@ -13,4 +13,4 @@ public:
     virtual void motto();
 };
 
-#endif /* family_h */
+#endif

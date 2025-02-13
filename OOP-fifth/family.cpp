@@ -11,3 +11,7 @@ Family::Family(string name,int age,string surname,int numRelatives):Person(name,
     this->surname=surname;
     this->numRelatives=numRelatives;
 }
+void Family::getInfo(){
+    cout<<"Family class:: Family name: "<<surname<<endl;
+    cout<<"Family class:: Number of Relatives "<<numRelatives<<endl;
+}
