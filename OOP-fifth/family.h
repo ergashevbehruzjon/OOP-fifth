@@ -12,5 +12,3 @@ public:
     void getInfo() override;
     virtual void motto();
 };
-
-#endif /* family_h */
