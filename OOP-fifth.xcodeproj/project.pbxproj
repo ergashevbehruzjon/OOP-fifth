@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		005A45272D5DA72B00BA382F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A45262D5DA72B00BA382F /* main.cpp */; };
+		005A45332D5DA9DF00BA382F /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A45322D5DA9DF00BA382F /* person.cpp */; };
+		005A45362D5DAC3900BA382F /* family.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A45352D5DAC3900BA382F /* family.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		005A45232D5DA72B00BA382F /* OOP-fifth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OOP-fifth"; sourceTree = BUILT_PRODUCTS_DIR; };
 		005A45262D5DA72B00BA382F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		005A452E2D5DA95900BA382F /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		005A45322D5DA9DF00BA382F /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
+		005A45342D5DABB800BA382F /* family.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = family.h; sourceTree = "<group>"; };
+		005A45352D5DAC3900BA382F /* family.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = family.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				005A45262D5DA72B00BA382F /* main.cpp */,
+				005A452E2D5DA95900BA382F /* person.h */,
+				005A45322D5DA9DF00BA382F /* person.cpp */,
+				005A45342D5DABB800BA382F /* family.h */,
+				005A45352D5DAC3900BA382F /* family.cpp */,
 			);
 			path = "OOP-fifth";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005A45362D5DAC3900BA382F /* family.cpp in Sources */,
+				005A45332D5DA9DF00BA382F /* person.cpp in Sources */,
 				005A45272D5DA72B00BA382F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
