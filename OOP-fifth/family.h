@@ -9,7 +9,7 @@ class Family:public Person{
 public:
     Family();
     Family(string name,int age,string surname,int numRelatives);
-    void getInfo() override;
+    void getInfo();
     virtual void motto();
 };
 

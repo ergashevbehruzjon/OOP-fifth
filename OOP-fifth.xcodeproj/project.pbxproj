@@ -10,6 +10,8 @@
 		005A45272D5DA72B00BA382F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A45262D5DA72B00BA382F /* main.cpp */; };
 		005A45332D5DA9DF00BA382F /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A45322D5DA9DF00BA382F /* person.cpp */; };
 		005A45362D5DAC3900BA382F /* family.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A45352D5DAC3900BA382F /* family.cpp */; };
+		005A45392D5DB0EA00BA382F /* parent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A45382D5DB0EA00BA382F /* parent.cpp */; };
+		005A453C2D5DB45400BA382F /* spouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 005A453B2D5DB45400BA382F /* spouse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		005A45322D5DA9DF00BA382F /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
 		005A45342D5DABB800BA382F /* family.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = family.h; sourceTree = "<group>"; };
 		005A45352D5DAC3900BA382F /* family.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = family.cpp; sourceTree = "<group>"; };
+		005A45372D5DB04B00BA382F /* parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parent.h; sourceTree = "<group>"; };
+		005A45382D5DB0EA00BA382F /* parent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parent.cpp; sourceTree = "<group>"; };
+		005A453A2D5DB3C100BA382F /* spouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spouse.h; sourceTree = "<group>"; };
+		005A453B2D5DB45400BA382F /* spouse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spouse.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				005A45322D5DA9DF00BA382F /* person.cpp */,
 				005A45342D5DABB800BA382F /* family.h */,
 				005A45352D5DAC3900BA382F /* family.cpp */,
+				005A45372D5DB04B00BA382F /* parent.h */,
+				005A45382D5DB0EA00BA382F /* parent.cpp */,
+				005A453A2D5DB3C100BA382F /* spouse.h */,
+				005A453B2D5DB45400BA382F /* spouse.cpp */,
 			);
 			path = "OOP-fifth";
 			sourceTree = "<group>";
@@ -130,8 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				005A45362D5DAC3900BA382F /* family.cpp in Sources */,
+				005A45392D5DB0EA00BA382F /* parent.cpp in Sources */,
 				005A45332D5DA9DF00BA382F /* person.cpp in Sources */,
 				005A45272D5DA72B00BA382F /* main.cpp in Sources */,
+				005A453C2D5DB45400BA382F /* spouse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,3 +15,6 @@ void Family::getInfo(){
     cout<<"Family class:: Family name: "<<surname<<endl;
     cout<<"Family class:: Number of Relatives "<<numRelatives<<endl;
 }
+void Family::motto(){
+    cout<<"Family class:: We are family\n";
+}
